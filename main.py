@@ -67,17 +67,17 @@ from square_generator.square_generator import SquareGenerator, CubeGenerator
 # print("From", start_num, "to", end_num, ":", squares_list)
 
 # 8
-start_num = 1
-end_num = 7
+# start_num = 1
+# end_num = 7
+#
+# cube_gen = CubeGenerator()
+#
+# squares_list = cube_gen.generate_cubes(start_num, end_num)
+# print("From", start_num, "to", end_num, ":", squares_list)
 
-cube_gen = CubeGenerator()
-
-squares_list = cube_gen.generate_cubes(start_num, end_num)
-print("From", start_num, "to", end_num, ":", squares_list)
-
-# 9
-start_num = 4
-end_num = 3
+# 9, 10
+start_num = 3
+end_num = 5
 
 cube_gen = CubeGenerator()
 
