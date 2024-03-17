@@ -1,3 +1,4 @@
+import math
 # 1
 # squares = [x**2 for x in range(1, 11)]
 # print(squares)
@@ -26,3 +27,8 @@ square_gen = SquareGenerator()
 
 squares_list = square_gen.generate_squares(start_num, end_num)
 print("From", start_num, "to", end_num, ":", squares_list)
+
+
+# 4
+square_roots = [math.sqrt(num) for num in squares_list]
+print("Squares Roots:", square_roots)
