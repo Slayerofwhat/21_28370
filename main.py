@@ -74,3 +74,12 @@ cube_gen = CubeGenerator()
 
 squares_list = cube_gen.generate_cubes(start_num, end_num)
 print("From", start_num, "to", end_num, ":", squares_list)
+
+# 9
+start_num = 4
+end_num = 3
+
+cube_gen = CubeGenerator()
+
+squares_list = cube_gen.generate_squares(start_num, end_num)
+print("From", start_num, "to", end_num, ":", squares_list)
