@@ -10,3 +10,13 @@ class SquareGenerator:
         return squares
 
 
+# 8
+class CubeGenerator(SquareGenerator):
+    def generate_cubes(self, start, end):
+        if start > end:
+            raise Exception("start is greater than end")
+
+        cubes = []
+        for num in range(start, end + 1):
+            cubes.append(num ** 3)
+        return cubes

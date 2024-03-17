@@ -1,5 +1,5 @@
 import math
-from square_generator.square_generator import SquareGenerator
+from square_generator.square_generator import SquareGenerator, CubeGenerator
 
 
 # 1
@@ -58,10 +58,19 @@ from square_generator.square_generator import SquareGenerator
 
 
 # 6, 7
+# start_num = 1
+# end_num = 7
+#
+# square_gen = SquareGenerator()
+#
+# squares_list = square_gen.generate_squares(start_num, end_num)
+# print("From", start_num, "to", end_num, ":", squares_list)
+
+# 8
 start_num = 1
 end_num = 7
 
-square_gen = SquareGenerator()
+cube_gen = CubeGenerator()
 
-squares_list = square_gen.generate_squares(start_num, end_num)
+squares_list = cube_gen.generate_cubes(start_num, end_num)
 print("From", start_num, "to", end_num, ":", squares_list)
