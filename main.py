@@ -1,5 +1,7 @@
 import math
-from square_generator import SquareGenerator
+from square_generator.square_generator import SquareGenerator
+
+
 # 1
 # squares = [x**2 for x in range(1, 11)]
 # print(squares)
@@ -55,7 +57,7 @@ from square_generator import SquareGenerator
 # print("From", start_num, "to", end_num, ":", squares_list)
 
 
-# 6
+# 6, 7
 start_num = 1
 end_num = 7
 
